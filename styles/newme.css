@@ -47,3 +47,47 @@ a {
   line-height: 26px;
   margin-left: 1000px;
 }
+
+/* main_styles */
+.section-container {
+  display: flex;
+  padding: 200px;
+  align-items: center;
+  gap: 80px;
+}
+.section-contents {
+  /* align-items: center; */
+}
+.section-title {
+  color: #151414;
+  font-size: 40px;
+  font-weight: 700;
+  margin: 0 500px 20px 0;
+}
+.section-description {
+  color: #444343;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-right: 450px;
+  margin-bottom: 20px;
+}
+.section-lists {
+  color: #444343;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  list-style: none;
+}
+
+.plans-container {
+  align-items: center;
+  width: 40%;
+  margin: auto;
+}
+section > div > h1 {
+  text-align: center;
+}
+.plans-contents {
+  display: flex;
+}
