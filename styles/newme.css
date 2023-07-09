@@ -82,12 +82,34 @@ a {
 
 .plans-container {
   align-items: center;
-  width: 40%;
+  width: 35%;
   margin: auto;
 }
-section > div > h1 {
+.plans-title {
   text-align: center;
+  color: #151414;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 50px;
 }
 .plans-contents {
   display: flex;
+}
+
+.banner-container {
+  background-image: url("../images/gradient1.png"), url("../images/watch.png");
+  background-repeat: no-repeat;
+  height: 300px;
+  margin: 135px 370px;
+}
+
+.banner-contents {
+  padding: 90px 65px;
+}
+
+.banner-title {
+  color: #fff;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 10px;
 }
